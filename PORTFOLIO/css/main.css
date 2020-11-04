@@ -33,14 +33,20 @@ body {
   height: 100%;
 }
 #backTop a {
-  color: #89b4cb;
+  display: block;
   position: fixed;
-  right: 40px;
-  bottom: 40px;
-  font-size: 40px;
+  right: 20px;
+  bottom: 20px;
+  color: #89b4cb;
+  font-size: 35px;
 }
 #backTop a:hover {
   opacity: 0.5;
+}
+@media (min-width: 1200px) {
+  #backTop a {
+    display: none;
+  }
 }
 a,
 a:hover {
@@ -655,6 +661,7 @@ button {
 @media (min-width: 768px) {
   .header__col-contact {
     width: calc(50% - 16px);
+    max-width: 273px;
   }
 }
 @media (min-width: 1200px) {
@@ -712,12 +719,12 @@ button {
 }
 @media (min-width: 768px) {
   .col-contact__email a {
-    font-size: 20px;
+    font-size: 13px;
   }
 }
 @media (min-width: 1200px) {
   .col-contact__email a {
-    font-size: 24px;
+    font-size: 15px;
   }
 }
 #page-nav {
@@ -868,7 +875,7 @@ button {
   z-index: 6;
 }
 .mobile-nav-overlay--active {
-  display: block;
+  display: none;
 }
 .no-scroll {
   overflow: hidden;
@@ -1007,7 +1014,7 @@ button {
           flex-direction: row;
 }
 .social__item {
-  margin-right: 30px;
+  margin-right: 13px;
 }
 .social__item:last-child {
   margin-right: 0;
@@ -2122,7 +2129,7 @@ button {
   text-align: center;
 }
 .footer-inner__info {
-  margin-bottom: 40px;
+  margin-bottom: 80px;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
   color: #161616;
