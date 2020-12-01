@@ -16,7 +16,7 @@ https://roman-boychenko.ru/PORTFOLIO/
 
 естировать локально:
 
-git clone https://github.com/veronica-ivanova/portfolio
+git clone https://github.com/RomanBoychenko/Portfolio-master
 cd apollo
 
 открыть index.html
