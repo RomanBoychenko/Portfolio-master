@@ -11,10 +11,9 @@ Cайт Портфолио
 Форма обратной связи
 Фильтр карточек проектов
 
+[Онлайн демо](https://roman-boychenko.ru/PORTFOLIO/)
 
-https://roman-boychenko.ru/PORTFOLIO/
-
-естировать локально:
+Тестировать локально:
 
 git clone https://github.com/RomanBoychenko/Portfolio-master
 cd apollo
